@@ -124,7 +124,7 @@ void printTree( TreeNodePtr treePtr,int l )
 
       printTree( treePtr->rightPtr, l+1 ); //Recursion to the right
 
-      for(i=0;i<l;i++)printf("        ");
+      for(i=0;i<l;i++)printf("      ");
 
       printf("%3d\n",treePtr->data) ;  //print the value
 
